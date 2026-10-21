@@ -1,0 +1,27 @@
+.git
+.github
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.ruff_cache
+.DS_Store
+
+# Raw/research data must never enter the serving image.
+data
+
+# Exclude research artifacts by default, then explicitly allow only Model V1 serving inputs.
+artifacts/*
+!artifacts/m4_catboost.cbm
+!artifacts/m4_catboost_imputer.joblib
+!artifacts/m4_calibrator.joblib
+!artifacts/m3_features.csv
+!artifacts/m4_metadata.json
+!artifacts/m5_policy_freeze.json
+!artifacts/m5_risk_band_thresholds.json
+
+# Not needed at runtime.
+tests
+scripts
+examples
+*.zip

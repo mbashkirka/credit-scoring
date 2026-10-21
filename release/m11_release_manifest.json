@@ -1,0 +1,15 @@
+{
+  "release_stage": "M11",
+  "package_version": "0.11.0",
+  "model_version": "credit-risk-v1",
+  "model_artifact_fingerprint": "14a17e7ac80680624a0587f9cf009b0d4e0f61b98eec300fe5297087c496f301",
+  "model_artifacts_changed": false,
+  "lockbox_status": "OPENED_AND_EVALUATED",
+  "monitoring_case_study": "retrospective",
+  "monitoring_historical_status": "WARNING",
+  "monitoring_warning_count": 2,
+  "monitoring_critical_count": 0,
+  "source_only_release": true,
+  "contains_raw_data": false,
+  "contains_model_binaries": false
+}

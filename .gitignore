@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Local datasets and derived feature caches. Keep only placeholder files in Git.
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Local training/evaluation/model artifacts. Public figures must be copied to docs/assets/.
+artifacts/**
+!artifacts/.gitkeep

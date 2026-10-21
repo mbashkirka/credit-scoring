@@ -1,0 +1,8 @@
+-r runtime.txt
+# Research / test-only dependencies; not installed in the production image.
+pyarrow>=16,<30
+matplotlib>=3.8,<4
+kaggle>=1.6,<2
+pytest>=9,<10
+httpx2==2.10.0
+ruff==0.16.2
